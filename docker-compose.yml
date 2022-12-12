@@ -20,7 +20,7 @@ services:
   app:
     depends_on:
       - mysqldb
-    image: saif75/examen
+    image: saif75/examen:latest3
     restart: on-failure
     env_file: ./.env
     ports:
