@@ -20,7 +20,7 @@ services:
   app:
     depends_on:
       - mysqldb
-    image:  syrinesassi/achat
+    image: saifeddinesaidi/examen
     restart: on-failure
     env_file: ./.env
     ports:
